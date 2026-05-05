@@ -1,0 +1,14 @@
+{
+  "app_mode": "simple",
+  "version": "v2",
+  "mode": "sender",
+  "protocol": "icmp",
+  "src_list": "sources.txt",
+  "dst_ip": "10.10.10.10",
+  "dst_port": 80,
+  "concurrency": 100,
+  "timeout": 30,
+  "output": "output.txt",
+  "packet_count": 10,
+  "max_packet_loss": 20.0
+}
